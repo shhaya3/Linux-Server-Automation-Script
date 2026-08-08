@@ -67,6 +67,3 @@ Bash · systemd · OpenSSH · UFW (iptables) · Fail2Ban · unattended-upgrades 
 
 Ubuntu Server 24.04 / 26.04 LTS (validated locally via VirtualBox before deployment to a live VPS)
 
-## Notes
-
-`config/vars.conf` is gitignored — it's meant to hold environment-specific values (username, port) and should never be committed with real server details. Use `config/vars.conf.example` as the template.
